@@ -36,7 +36,9 @@ RUN apt-get install -q -y \
     ros-kinetic-depthimage-to-laserscan \
     ros-kinetic-openslam-gmapping \
     ros-kinetic-gmapping \
-    ros-kinetic-moveit-commander
+    ros-kinetic-moveit-commander \
+    ros-kinetic-pointcloud-to-laserscan \
+    ros-kinetic-rosbridge-server
 
 # install ROS Tiago
 RUN mkdir -p /workspace/ROS/tiago_ws/src
